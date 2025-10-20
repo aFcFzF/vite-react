@@ -1,0 +1,87 @@
+@border-radius-base: 2px;
+@color-1: #303233;
+@color-2: #f8fafc;
+@color-3: #fff;
+@font-size-sm: 12px;
+@margin-xs: 8px;
+@padding-md: 16px;
+
+.containerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1101.5px;
+  margin-right: 2px;
+  margin-left: @margin-xs;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 42px;
+  background-color: @color-3;
+}
+
+.paymentMethodSection {
+  padding: 18px 25px @padding-md;
+  border-radius: @border-radius-base;
+  background-color: @color-2;
+}
+
+.paymentMethodLabel {
+  white-space: nowrap;
+  color: @color-1;
+  font-size: @font-size-sm;
+}
+
+.incentiveDetailsSection {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 54px;
+  margin-left: 26px;
+}
+
+.incentiveItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-left: 14px;
+}
+
+.incentiveItemHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.incentiveAmountLabel {
+  margin-top: 38px;
+  white-space: nowrap;
+  color: @color-1;
+  font-size: @font-size-sm;
+}
+
+.incentiveItemBody {
+  display: flex;
+  flex-direction: column;
+  margin-left: 62px;
+}
+
+.incentiveAmountValue {
+  margin-top: 38px;
+  margin-left: 2px;
+  color: @color-1;
+  font-size: @font-size-sm;
+}
+
+.formWrapper {
+  min-width: 628px;
+  margin-top: 35px;
+  background-color: @color-3;
+}
+
+.radiosWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.paymentOptionIcon {
+  flex-shrink: 0;
+  border-radius: 6px;
+}

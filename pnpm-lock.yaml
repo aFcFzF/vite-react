@@ -14,6 +14,9 @@ importers:
       '@ant-design/icons':
         specifier: ^5.6.1
         version: 5.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui':
+        specifier: 3.0.328-beta.0
+        version: 3.0.328-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd:
         specifier: ^5.24.3
         version: 5.24.3(moment@2.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -23,6 +26,9 @@ importers:
       echarts-for-react:
         specifier: ^3.0.3
         version: 3.0.3(echarts@5.6.0)(react@18.3.1)
+      less:
+        specifier: ^4.2.2
+        version: 4.2.2
       moment:
         specifier: ^2.30.1
         version: 2.30.1
@@ -65,7 +71,7 @@ importers:
         version: 6.21.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitejs/plugin-react-swc':
         specifier: ^3.8.0
-        version: 3.8.0(vite@5.4.14(@types/node@20.17.19)(terser@5.39.0))
+        version: 3.8.0(vite@5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0))
       '@vitest/ui':
         specifier: ^1.6.1
         version: 1.6.1(vitest@1.6.1)
@@ -107,13 +113,13 @@ importers:
         version: 5.7.3
       vite:
         specifier: ^5.4.14
-        version: 5.4.14(@types/node@20.17.19)(terser@5.39.0)
+        version: 5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)(terser@5.39.0))
+        version: 4.3.2(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0))
       vitest:
         specifier: ^1.6.1
-        version: 1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(terser@5.39.0)
+        version: 1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(less@4.2.2)(terser@5.39.0)
 
 packages:
 
@@ -783,6 +789,204 @@ packages:
   '@swc/types@0.1.17':
     resolution: {integrity: sha512-V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==}
 
+  '@tencent/od-animate@2.0.10':
+    resolution: {integrity: sha512-scb1iUEOW6Ep8ZSP5WueP5REkxXfSclB314ZipcDJxKhou/xYb1qTZlEYlgQvDd4DYUZT2JYCDmuKt5BZ9FX3w==, tarball: https://mirrors.tencent.com/npm/@tencent/od-animate/-/@tencent/od-animate-2.0.10.tgz}
+
+  '@tencent/spa-clipper@1.3.8':
+    resolution: {integrity: sha1-Mn+foJd+tb43l7kEYf0+lIZoltc=, tarball: https://mirrors.tencent.com/npm/@tencent/spa-clipper/download/@tencent/spa-clipper-1.3.8.tgz}
+
+  '@tencent/spa-pinyin@1.3.1':
+    resolution: {integrity: sha512-dUZyh/m4VWvr0Yxbearwop193Cvi1qTQwNevV7VjSksYLVC70HLNUJQ0PG7uuYUDtwgYUxADEKxSxCt4MxqsrA==, tarball: https://mirrors.tencent.com/npm/@tencent/spa-pinyin/-/@tencent/spa-pinyin-1.3.1.tgz}
+
+  '@tencent/spaui-alert@1.0.161-beta.0':
+    resolution: {integrity: sha512-JP1IHVHLqGWj7HK4/S2869LSOrsR9xudFmQY/ktInyZupG4ph4KbFVMxPztpFLc1QjWCqcUx8bo5akjOhjDJfw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-alert/-/@tencent/spaui-alert-1.0.161-beta.0.tgz}
+
+  '@tencent/spaui-autocomplete@1.0.202-beta.0':
+    resolution: {integrity: sha512-oJyaqu5kzbvolPAH1DPTQZ71H54JZlUGBo71TSRdS7JNGgGuHBjOdXl1LV4+0AoJsuTaBsD5Wqk4TXnm9slAHA==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-autocomplete/-/@tencent/spaui-autocomplete-1.0.202-beta.0.tgz}
+
+  '@tencent/spaui-badge@1.0.149-beta.0':
+    resolution: {integrity: sha512-Lipz/FfHv0SPAfgmpcXrjO5wjqR7v8m8brLyKpWOj0gY+AMI771drczvsC5UrITt4FGuDuVj0+ujFIBLu6lQnQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-badge/-/@tencent/spaui-badge-1.0.149-beta.0.tgz}
+
+  '@tencent/spaui-blockselector@1.0.150-beta.0':
+    resolution: {integrity: sha512-d7yWb6pxk9eFIkthx0BSVIhmWVkR1pKtWVzS0wTLhqICK6NsqV6VTOMBtUhM8DnstGY+mBfz7AeR1kgeQ3P5aw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-blockselector/-/@tencent/spaui-blockselector-1.0.150-beta.0.tgz}
+
+  '@tencent/spaui-breadcrumb@1.0.151-beta.0':
+    resolution: {integrity: sha512-h6dx7OH+FPfbpPEtXI3Hkfh9w5fPQ1IOGFdQy1Du9QOqyyz2ICd1fsJ1/1vQwLjxLNhiv4Xx8rKrRZc16QCpFQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-breadcrumb/-/@tencent/spaui-breadcrumb-1.0.151-beta.0.tgz}
+
+  '@tencent/spaui-button@1.0.168-beta.0':
+    resolution: {integrity: sha512-ZfZSgC/T6GlBBqPoS/6symCXUU1/n3obnZ9RNEkdUmr7xoLXJ+oT3YkCLhe6Ydu4Lz4RdP2IN7NWzIB2D/Icgg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-button/-/@tencent/spaui-button-1.0.168-beta.0.tgz}
+
+  '@tencent/spaui-buttongroup@1.0.169-beta.0':
+    resolution: {integrity: sha512-kX8zfRy36BqKs+/o3xp20NKevcp4eJZzflOfrrLWH+z66H1G6zE6KyQSQndn6Vn7zItAMbn7zBi4hkaFLLXNog==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-buttongroup/-/@tencent/spaui-buttongroup-1.0.169-beta.0.tgz}
+
+  '@tencent/spaui-carousel@1.0.161-beta.0':
+    resolution: {integrity: sha512-EODTzuf5B8u6ZoUDh0KKvfjJVsp17OaiLmQSAb8/0gByuzkB/0hEClL17tFTn6teKXsQW1D8xTqV83sRKfRj+A==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-carousel/-/@tencent/spaui-carousel-1.0.161-beta.0.tgz}
+
+  '@tencent/spaui-chart@1.0.151-beta.0':
+    resolution: {integrity: sha512-xnlKim4Ly3uOvF3XN8QSvs5JdVd/ZXkdFjLOW4yLaXmg7FqRsXCVVJ/a7oxf3j67H7oVUeD/F/fPPn0jPgTWMg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-chart/-/@tencent/spaui-chart-1.0.151-beta.0.tgz}
+
+  '@tencent/spaui-checkbox@1.0.170-beta.0':
+    resolution: {integrity: sha512-3NvY4+cNVuStctRACzU2wbnDxKShK3PNxxTogAqgJWp8LMW7RiKlB5RvODRNsws7pnXcf6+KDs7Bg2wYla2ijA==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-checkbox/-/@tencent/spaui-checkbox-1.0.170-beta.0.tgz}
+
+  '@tencent/spaui-checkboxgroup@1.0.171-beta.0':
+    resolution: {integrity: sha512-YBQiC+NkasfD9jFIX1KAqL1at+lvD/HOnImvk3RASgcFle424omSGIzksDTYIHcdBt190WGLDXJLcT7s/42Ljg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-checkboxgroup/-/@tencent/spaui-checkboxgroup-1.0.171-beta.0.tgz}
+
+  '@tencent/spaui-clipper@1.0.147-beta.0':
+    resolution: {integrity: sha512-bngW7Zs37yVl9mzdSTGRXcJiUPAEcWWqxRgGD3RYgAmutBHHOw+gnET5Y6h8hozGcq9YVjYaYfPXuAPkDAri9A==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-clipper/-/@tencent/spaui-clipper-1.0.147-beta.0.tgz}
+
+  '@tencent/spaui-coder@1.0.147-beta.0':
+    resolution: {integrity: sha512-zhebJFF3y3HIfBpDs464yMSZDx2mXiE1OY4/Zf6YjwRxpxifxTLfVPXqwfdVfv2gTYYA88ySDzSoVKcHCE5jyQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-coder/-/@tencent/spaui-coder-1.0.147-beta.0.tgz}
+
+  '@tencent/spaui-collapse@1.0.151-beta.0':
+    resolution: {integrity: sha512-uI1CY1S0oBC2idWbqhb/JIK/R0BC6OVlfP3KJvMjw9xdHI9mpF7ePsgIxhYemPAmaiOPzKonOnNYtvHfdMCpXw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-collapse/-/@tencent/spaui-collapse-1.0.151-beta.0.tgz}
+
+  '@tencent/spaui-datepicker@1.0.226-beta.0':
+    resolution: {integrity: sha512-qcIgD9TRvXRwVZUM91Zi/q5pbmACG3iT9AVNjzv/BkWhfIxlP6bKVXfid3iEtnGUx/4/75edSfINPrrCgEQF1Q==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-datepicker/-/@tencent/spaui-datepicker-1.0.226-beta.0.tgz}
+
+  '@tencent/spaui-decorate@0.1.17':
+    resolution: {integrity: sha512-HjVMH3RyZm4bYmAm5JN9De7m3Mu0hAzorcOcGxnUvSjFtNnW2SS2I/kpAfiGYOXGiS4ZDyZM0AS9kxMr3C7WAg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-decorate/-/@tencent/spaui-decorate-0.1.17.tgz}
+
+  '@tencent/spaui-devtool@0.1.10':
+    resolution: {integrity: sha1-HGFxh6cjpiG7UiYPg5cRFnU+E/g=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-devtool/download/@tencent/spaui-devtool-0.1.10.tgz}
+
+  '@tencent/spaui-dialog@1.0.181-beta.0':
+    resolution: {integrity: sha512-fO5X7UZyD4eyH3loTaxp1gtl6CaEAvTW17qzAJaehNLzHyY24nbhIF+u+ALoAkn0NGfLyDjQfVKG+bYsk8v3PQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-dialog/-/@tencent/spaui-dialog-1.0.181-beta.0.tgz}
+
+  '@tencent/spaui-drawer@1.0.185-beta.0':
+    resolution: {integrity: sha512-ssecVdz9qHhp6r3xHdWhrAu7jv5dJwLwXf7trYtzEYi072nYQTNlgOXiJ99wnE9PdYrwsm83rpiu/Gu2v1EBlw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-drawer/-/@tencent/spaui-drawer-1.0.185-beta.0.tgz}
+
+  '@tencent/spaui-dropdown@1.0.172-beta.0':
+    resolution: {integrity: sha512-NODlG01+9B2jmTuoe94K0TcFUkKBtn5VG6wxXX3kJY3vnd3Z1qe8rVkmyJe/dD2NSnI9LB0oG4UMPk7nQjoX8w==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-dropdown/-/@tencent/spaui-dropdown-1.0.172-beta.0.tgz}
+
+  '@tencent/spaui-dropmenu@1.0.154-beta.0':
+    resolution: {integrity: sha512-h+WP0Kg1ieoi4IogoCBg/mdODd6Zh3PtdXDYWHpDi2OzhR3kd0FHyZpmhFuUQOwkTXJIJ+eeTeP8AMKlFjTQaw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-dropmenu/-/@tencent/spaui-dropmenu-1.0.154-beta.0.tgz}
+
+  '@tencent/spaui-echarts@1.0.158-beta.0':
+    resolution: {integrity: sha512-HdgpXdjeH+BbwRpRUi5svlTNKVPajoq/UxLoU6R93ZQbbisoNZD9al2n1+5MiSGt2//ajCKrOBeslATQ3B0K1g==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-echarts/-/@tencent/spaui-echarts-1.0.158-beta.0.tgz}
+
+  '@tencent/spaui-ellipsis@0.1.5':
+    resolution: {integrity: sha1-1inCIqjQG6ChAVHaYW0IUXHhRTs=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-ellipsis/download/@tencent/spaui-ellipsis-0.1.5.tgz}
+
+  '@tencent/spaui-empty@1.0.147-beta.0':
+    resolution: {integrity: sha512-deKTJVaILI+THrOVCGcAv+2Mc6E/yaDDN9PRcLoINE+CZsj8qr647mrZYoW0l3Jft3uqkReNFe8732TaoPFMGg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-empty/-/@tencent/spaui-empty-1.0.147-beta.0.tgz}
+
+  '@tencent/spaui-formgroup@1.0.200-beta.0':
+    resolution: {integrity: sha512-sqoSqNmarE1rcdr1t/pjdq9FkjwP+yl7uEdTAHTBkp6Ug4lZshdvzeh3EKv812fT7Yj3P04TX2rAqupcIajYeQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-formgroup/-/@tencent/spaui-formgroup-1.0.200-beta.0.tgz}
+
+  '@tencent/spaui-icon@0.1.59':
+    resolution: {integrity: sha1-6AZgf2JQz9c1OatJhpPEP21N9ZY=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-icon/download/@tencent/spaui-icon-0.1.59.tgz}
+
+  '@tencent/spaui-icon@1.0.150-beta.0':
+    resolution: {integrity: sha512-I77kVFUAHH/23R0VAGFxnDc8peAfn5kVQ1a9SJvrbml4M57kCl3PBRB4k6ShUJFLQ8V8ueB/pVpidYvPU8gX6g==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-icon/-/@tencent/spaui-icon-1.0.150-beta.0.tgz}
+
+  '@tencent/spaui-input@1.0.154-beta.0':
+    resolution: {integrity: sha512-EYFl56+nUef54VqnTlaKkhuTRTJFPXLcnTxyumK2lUBZxr3hAW45IFUxegyOAeBpNQZtA/tEWIs+GrTYt9TnlQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-input/-/@tencent/spaui-input-1.0.154-beta.0.tgz}
+
+  '@tencent/spaui-keyday@1.0.151-beta.0':
+    resolution: {integrity: sha512-Q0zXLw4m96e2OiVzfBcHBLSKdjICqhQQgUnIXwpkqQs5UPKXXhdeikhLjGECE9q5NusDJNeoQJ0ahFquYJQZFg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-keyday/-/@tencent/spaui-keyday-1.0.151-beta.0.tgz}
+
+  '@tencent/spaui-labels@1.0.168-beta.0':
+    resolution: {integrity: sha512-ZJmqnJ+Gks/aOB2M+y0MKtQ+XtAYg0+Omb3bkBSHdePxWOdAZgO/mBLn7xeLUKgqEXTHxaqpYYxBUQ3SRJKEPQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-labels/-/@tencent/spaui-labels-1.0.168-beta.0.tgz}
+
+  '@tencent/spaui-list@1.0.162-beta.0':
+    resolution: {integrity: sha512-d98+w0qBKdT3B1mOYkJ/e0w1e0qAF+cAWmHhoC+Y91h821cupFj6HxEY9+DtRGyjmsFADtXdJiG4Y5QXsy8YWA==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-list/-/@tencent/spaui-list-1.0.162-beta.0.tgz}
+
+  '@tencent/spaui-loading@1.0.148-beta.0':
+    resolution: {integrity: sha512-Dn0Fq2mHux5iHPF8si84UY2GmEM1DHH4KmnPFwBZIZYv5b/o233zRKZ3UV+ZcY8lOds6aHPmB5hnD4nTXrlqKQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-loading/-/@tencent/spaui-loading-1.0.148-beta.0.tgz}
+
+  '@tencent/spaui-menu@1.0.171-beta.0':
+    resolution: {integrity: sha512-qqq3pnyd1aDU13Ajyfl0XWPVBQT0kFt/Sbb3Sr+GFhTBsNazgkr7EVPECvCvbJq5vC/lZdOnSKv4BriA8vMS7A==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-menu/-/@tencent/spaui-menu-1.0.171-beta.0.tgz}
+
+  '@tencent/spaui-message@1.0.179-beta.0':
+    resolution: {integrity: sha512-9qaq72cyKVNL3+iEc2PNyPT+LKtm0WW1kNnC8cfPkJN4hVx5HXzTwnAPHjuc3BjYRmS+SzaW1HU2VxPFkJGBIQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-message/-/@tencent/spaui-message-1.0.179-beta.0.tgz}
+
+  '@tencent/spaui-pagebar@1.0.203-beta.0':
+    resolution: {integrity: sha512-/1JRdGPVwL1BKOhiGCxLNT+MrFFEJf2o9lkKfp0WZiknr1R0oagqQyhdhMlViZ4hJkgFkgYwKcBIsGkH6X9Dyw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-pagebar/-/@tencent/spaui-pagebar-1.0.203-beta.0.tgz}
+
+  '@tencent/spaui-popover@0.1.110':
+    resolution: {integrity: sha1-CNiDz1ALafmWE83e/vU/B98Xxl4=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-popover/download/@tencent/spaui-popover-0.1.110.tgz}
+
+  '@tencent/spaui-popover@1.0.164-beta.0':
+    resolution: {integrity: sha512-6lRDY8VAUqq/brrDJmPCo77TFKlaPxW2+5mQsULNRqCjZiwIGjTK5K2XDlTKRgJMsBX6wamHQ7c9rRKH/EyJXQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-popover/-/@tencent/spaui-popover-1.0.164-beta.0.tgz}
+
+  '@tencent/spaui-portal@0.1.42':
+    resolution: {integrity: sha1-pXqmcdClYU4gPP3FRYVzG0lG5d8=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-portal/download/@tencent/spaui-portal-0.1.42.tgz}
+
+  '@tencent/spaui-portal@1.0.147-beta.0':
+    resolution: {integrity: sha512-6n/QLD/l9WvlroYUYSFEGGYmaEh07Ys7DxxqbZ4bp+LkywlirgHhhwyNQrtxqzyznJIDFfoyKZ6UFGQXPjOz+w==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-portal/-/@tencent/spaui-portal-1.0.147-beta.0.tgz}
+
+  '@tencent/spaui-radio@1.0.165-beta.0':
+    resolution: {integrity: sha512-rCnNap/XPJQAdYSrNqXXJgiHz4WqgS7TYlnIUAjRrP4rfkOrGeeEwfn2W61rK8HPNZk+Xqfuzi9UnBgolN8dVQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-radio/-/@tencent/spaui-radio-1.0.165-beta.0.tgz}
+
+  '@tencent/spaui-radiogroup@1.0.167-beta.0':
+    resolution: {integrity: sha512-cc/N4Ouyi0EXX486yFdyc3yzDlqvjgYAzIlcc32Fo4nasmiPfdICK96jf1Fqtt3Hat0y3uuC4vi/AhHsFAvTQg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-radiogroup/-/@tencent/spaui-radiogroup-1.0.167-beta.0.tgz}
+
+  '@tencent/spaui-rating@1.0.148-beta.0':
+    resolution: {integrity: sha512-UgMATJCEqNugNdGv1Iz0gD1qBS6SC1ef1o1mU6/ieVmkrXHUvR1z7J938T8S1uV7jOFgrSe//kMASQ/lvXseAw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-rating/-/@tencent/spaui-rating-1.0.148-beta.0.tgz}
+
+  '@tencent/spaui-select-tree@1.0.166-beta.0':
+    resolution: {integrity: sha512-y/ZLXu1RqmRac29r0yeWybr6whwOvWkQ5qIUhfkpLmcl6ZfsNpB5JhH6FKDAbghsqTixOl/7BXjEgQxsWxCf+A==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-select-tree/-/@tencent/spaui-select-tree-1.0.166-beta.0.tgz}
+
+  '@tencent/spaui-select@1.0.202-beta.0':
+    resolution: {integrity: sha512-rTk9FihrnuHJA7gMuKqW9OaujLazjRQn7oj+27sfhfnWQr9bHf7AcXleR3Qc+kQedclWXyLh7ODQruQs2dEJRg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-select/-/@tencent/spaui-select-1.0.202-beta.0.tgz}
+
+  '@tencent/spaui-slider@1.0.165-beta.0':
+    resolution: {integrity: sha512-8wLG7bTGue6ctLxURkZIwqxEJt/PlA690jME0v9IaPduxh3foYchQFB3HGCj5HlvlI725Co8ps8jGEFOcATkKw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-slider/-/@tencent/spaui-slider-1.0.165-beta.0.tgz}
+
+  '@tencent/spaui-space@1.0.149-beta.0':
+    resolution: {integrity: sha512-ikfukUiNvSySEhZM5viRHyiE9Zat23mkolbNLXMRkrXNNaxe8uqbZByBal3aTmz8rJYI29QOMIsq7bx1BH3y3w==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-space/-/@tencent/spaui-space-1.0.149-beta.0.tgz}
+
+  '@tencent/spaui-switch@1.0.151-beta.0':
+    resolution: {integrity: sha512-wXtiEtSOvR/SN1yW24kEa+0h8nteIouTbKZeQgs9NFMxDUYlu2uqW1mGTCFGF3mq3AJBxllKxIKAKBep1pIOog==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-switch/-/@tencent/spaui-switch-1.0.151-beta.0.tgz}
+
+  '@tencent/spaui-table@1.0.223-beta.0':
+    resolution: {integrity: sha512-CbKeoYr3zr2lR6+CiLH35dv/GnnU575ZMuOw85KioiF3ORKS6usIE+k8DxCO8qsf24KFYDKyZa2oLuR2kfFExQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-table/-/@tencent/spaui-table-1.0.223-beta.0.tgz}
+
+  '@tencent/spaui-tabs@1.0.209-beta.0':
+    resolution: {integrity: sha512-Gpht08gBEDv94qEA98bMUWNGXJXglYzhj9uQMiOaEYSgx+0BzeIQstZmiGj58zyhdaDd4rnwxrU2Lpgxp53OiQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-tabs/-/@tencent/spaui-tabs-1.0.209-beta.0.tgz}
+
+  '@tencent/spaui-task@1.0.150-beta.0':
+    resolution: {integrity: sha512-9tE/0LH1g8RJ4rFDY7yjdwyiEA4MmUTpU0wngfvbuKLO5nvTAtJ4GPtumTff8OUIBsEcJqFQNSVWPTuxM1YDxg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-task/-/@tencent/spaui-task-1.0.150-beta.0.tgz}
+
+  '@tencent/spaui-theme@0.0.4':
+    resolution: {integrity: sha1-PiXrokCypClHBT6gDTiiRWTARV0=, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-theme/download/@tencent/spaui-theme-0.0.4.tgz}
+
+  '@tencent/spaui-theme@1.0.144-beta.0':
+    resolution: {integrity: sha512-CkufRJgyKG1LJVEaXbWVw6oCMOp6hSeYTSNm2bAAzSUwPj6VhyFEY4hjAw3oG+YhzXv9QAkmyom8D5w1B/pDig==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-theme/-/@tencent/spaui-theme-1.0.144-beta.0.tgz}
+
+  '@tencent/spaui-timepicker@1.0.202-beta.0':
+    resolution: {integrity: sha512-VRvSfB0kbyqUraGYtld2IOgDu3kmf2L3n7sl5SEb9vlFOt8z8VVsqj8YyB3AcEk5a0DnDA22bCCsZM86Aq498g==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-timepicker/-/@tencent/spaui-timepicker-1.0.202-beta.0.tgz}
+
+  '@tencent/spaui-timeroutineselector@1.0.147-beta.0':
+    resolution: {integrity: sha512-RirUkZNlRTP3gVj3FGwjV9K51lubgpOOQhQL7AwF5U3UbaUKiuxi3c1TzrM4JvhJ3QM23lxFMNXiP59Ps9MLEg==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-timeroutineselector/-/@tencent/spaui-timeroutineselector-1.0.147-beta.0.tgz}
+
+  '@tencent/spaui-tooltip@1.0.165-beta.0':
+    resolution: {integrity: sha512-J0dZcvanuqr+8zKeo2AMxHxUJBXj/ZBQ/VsdDq9WfQDWe1Lj1q0drx+b02p8oL6DTW4c3EyJdB7e8UPogOqQrQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-tooltip/-/@tencent/spaui-tooltip-1.0.165-beta.0.tgz}
+
+  '@tencent/spaui-topnav@1.0.149-beta.0':
+    resolution: {integrity: sha512-AVg3DTLERidjOn2f7g1C2CdlLKTVsmlrrbW/cclx7VajFPT9Fc/C1yAVknQinSq8Spc1bL/R9FZ7V/bKTdgiew==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-topnav/-/@tencent/spaui-topnav-1.0.149-beta.0.tgz}
+
+  '@tencent/spaui-tree@1.0.184-beta.0':
+    resolution: {integrity: sha512-RuqS70Kj6WnNTyZJ+t6CRelj9luJJyAg7yLvaTrQTr2+90zu0mF3wLRE+cB562M0xIIJTt+wjDCvHdKjhNmaZQ==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-tree/-/@tencent/spaui-tree-1.0.184-beta.0.tgz}
+
+  '@tencent/spaui-uploader@1.0.180-beta.0':
+    resolution: {integrity: sha512-S28aXyQ5slIcRmMb6x1/HpBoL6y89Y7dSH2qNToaUI5hEHiXiqGakKsLSEkVkXHsD9q8aTsWtxhRaO4s6TUkHw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-uploader/-/@tencent/spaui-uploader-1.0.180-beta.0.tgz}
+
+  '@tencent/spaui-userpicker@1.0.212-beta.0':
+    resolution: {integrity: sha512-STjgyvJoG/aEXQRTgp8T0Nsz1HTVjL1+svzpC2bQpXGp5GASOV8pzJytykuVIOIuN5vlgq6Q10W7QENMg4M11w==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-userpicker/-/@tencent/spaui-userpicker-1.0.212-beta.0.tgz}
+
+  '@tencent/spaui-utils@0.2.130':
+    resolution: {integrity: sha512-knj9DWJMo8byJ2jYy6kLZlP3wiP2m+6jhbsbCMjftaTK5nOaQpPX2Ac6bT/oj0JwSGQKmtdvRmgR+i6WjZj33A==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-utils/-/@tencent/spaui-utils-0.2.130.tgz}
+
+  '@tencent/spaui-viewer@1.0.152-beta.0':
+    resolution: {integrity: sha512-4Sc0DzlozfVSJglDlrm854352Mi8MDP0Uz7J9kiMmG6MPfrtleDzJqPcOK+HR6zKZG6DBHjEAATuG+q3dwD+5Q==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-viewer/-/@tencent/spaui-viewer-1.0.152-beta.0.tgz}
+
+  '@tencent/spaui-watermark@1.0.156-beta.0':
+    resolution: {integrity: sha512-tu49kB27rEE/NQJ/v6fjdcukXVrVaNNPESAoqTMdgly9NNiSTZvD6hfajII9SDgm6u9ZovWfoH0g+nMMFe/7Sw==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui-watermark/-/@tencent/spaui-watermark-1.0.156-beta.0.tgz}
+
+  '@tencent/spaui@3.0.328-beta.0':
+    resolution: {integrity: sha512-qZ1DzWMzQx9uVZkABoKIvVBPg5kLFPS4Z2IVxRJ+JIbZjB2hojZwjIeO/zZCLq/4PecEXOSh5TUIjGnEbJoK8w==, tarball: https://mirrors.tencent.com/npm/@tencent/spaui/-/@tencent/spaui-3.0.328-beta.0.tgz}
+
   '@testing-library/dom@9.3.4':
     resolution: {integrity: sha512-FlS4ZWlp97iiNWig0Muq8p+3rVDjRiYE+YKGbAqXOu9nwJFFOdL00kFpz42M+4huzYi86vAK1sOOfyOG45muIQ==}
     engines: {node: '>=14'}
@@ -1322,6 +1526,9 @@ packages:
   contour_plot@0.0.1:
     resolution: {integrity: sha512-Nil2HI76Xux6sVGORvhSS8v66m+/h5CwFkBJDO+U5vWaMdNC0yXNCsGDPbzPhvqOEU5koebhdEvD372LI+IyLw==}
 
+  copy-anything@2.0.6:
+    resolution: {integrity: sha512-1j20GZTsvKNkc4BY3NpMOM8tt///wY3FpIzozTOFO2ffuZcV61nojHXVKIy3WM+7ADCy5FVhdZYHYDdgTU0yJw==}
+
   copy-to-clipboard@3.3.3:
     resolution: {integrity: sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==}
 
@@ -1573,6 +1780,10 @@ packages:
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
+
+  errno@0.1.8:
+    resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
+    hasBin: true
 
   es-abstract@1.23.9:
     resolution: {integrity: sha512-py07lI0wjxAC/DcfK1S6G7iANonniZwTISvdPzk9hzeH0IZIshbuuFxLIU96OyF89Yb9hiqWn8M/bY83KY5vzA==}
@@ -1933,6 +2144,11 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
+  image-size@0.5.5:
+    resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==}
+    engines: {node: '>=0.10.0'}
+    hasBin: true
+
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
@@ -2089,6 +2305,9 @@ packages:
     resolution: {integrity: sha512-mfcwb6IzQyOKTs84CQMrOwW4gQcaTOAWJ0zzJCl2WSPDrWk/OzDaImWFH3djXhb24g4eudZfLRozAvPGw4d9hQ==}
     engines: {node: '>= 0.4'}
 
+  is-what@3.14.1:
+    resolution: {integrity: sha512-sNxgpk9793nzSs7bA6JQJGeIuRBQhAaNGG77kzYQgMkrID+lS6SlK07K5LaptscDlSaIgH+GPFzf+d75FVxozA==}
+
   isarray@2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
@@ -2162,6 +2381,11 @@ packages:
     resolution: {integrity: sha512-RE2g0b5VGZsOCFOCgP7omTRYFqydmZkBwl5oNnQ1lDYC57uyO9KqNnNVxT7COSHTxrRCWVcAVOcbjk+tvh/rgQ==}
     engines: {node: '>=0.10.0'}
 
+  less@4.2.2:
+    resolution: {integrity: sha512-tkuLHQlvWUTeQ3doAqnHbNn8T6WX1KA8yvbKG9x4VtKtIjHsVKQZCH11zRgAfbDAXC2UNIg/K9BYAAcEzUIrNg==}
+    engines: {node: '>=6'}
+    hasBin: true
+
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -2219,6 +2443,10 @@ packages:
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
 
+  make-dir@2.1.0:
+    resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
+    engines: {node: '>=6'}
+
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
@@ -2241,6 +2469,11 @@ packages:
   mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
+
+  mime@1.6.0:
+    resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
+    engines: {node: '>=4'}
+    hasBin: true
 
   mimic-fn@4.0.0:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
@@ -2311,8 +2544,17 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  natives@1.1.6:
+    resolution: {integrity: sha512-6+TDFewD4yxY14ptjKaS63GVdtKiES1pTPyxn9Jb0rBqPMZ7VcCiooEhPNsr+mqHtMGxa/5c/HhcC4uPEUw/nA==}
+    deprecated: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+
+  needle@3.3.1:
+    resolution: {integrity: sha512-6k0YULvhpw+RoLNiQCRKOl09Rv1dPLr8hHnVjHqdolKwDrdNyk+Hmrthi4lIGPPz3r39dLx0hsF5s40sZ3Us4Q==}
+    engines: {node: '>= 4.4.x'}
+    hasBin: true
 
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
@@ -2405,6 +2647,10 @@ packages:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
 
+  parse-node-version@1.0.1:
+    resolution: {integrity: sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==}
+    engines: {node: '>= 0.10'}
+
   path-exists@4.0.0:
     resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
     engines: {node: '>=8'}
@@ -2457,6 +2703,10 @@ packages:
   pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
+
+  pify@4.0.1:
+    resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
+    engines: {node: '>=6'}
 
   pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
@@ -2537,6 +2787,9 @@ packages:
 
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+
+  prr@1.0.1:
+    resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -2626,6 +2879,12 @@ packages:
 
   rc-menu@9.16.1:
     resolution: {integrity: sha512-ghHx6/6Dvp+fw8CJhDUHFHDJ84hJE3BXNCzSgLdmNiFErWSOaZNsihDAsKq9ByTALo/xkNIwtDFGIl6r+RPXBg==}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+
+  rc-motion@2.4.6:
+    resolution: {integrity: sha512-nXIHve2EDQZ8BFHfgJI3HYMMOZ7HGsolCfA9ozP99/gc1UqpgKys1TYrQWdXa2trff0V3JLhgn2zz+w9VsyktA==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -2918,6 +3177,9 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
+  sax@1.4.1:
+    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
@@ -2927,6 +3189,10 @@ packages:
 
   scroll-into-view-if-needed@3.1.0:
     resolution: {integrity: sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==}
+
+  semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
+    hasBin: true
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -3276,6 +3542,10 @@ packages:
   typed-array-length@1.0.7:
     resolution: {integrity: sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg==}
     engines: {node: '>= 0.4'}
+
+  types@0.1.1:
+    resolution: {integrity: sha512-JuntZtJj4MKLE9x/XBs7IjsznYhzETwr34pw3XJTKvgYtAMdeMG+o8x8U85E5Lm6eCPa1DdOdGVsHMwq4ZnZAg==}
+    engines: {node: '>= 0.6.0'}
 
   typescript@5.7.3:
     resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
@@ -4295,6 +4565,644 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
+  '@tencent/od-animate@2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      classnames: 2.5.1
+      prop-types: 15.8.1
+      rc-util: 5.44.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spa-clipper@1.3.8': {}
+
+  '@tencent/spa-pinyin@1.3.1': {}
+
+  '@tencent/spaui-alert@1.0.161-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-autocomplete@1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spa-pinyin': 1.3.1
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-badge@1.0.149-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-blockselector@1.0.150-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-breadcrumb@1.0.151-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-button@1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-buttongroup@1.0.169-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-carousel@1.0.161-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      '@tencent/spaui-viewer': 1.0.152-beta.0
+      classnames: 2.5.1
+
+  '@tencent/spaui-chart@1.0.151-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-checkbox@1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-checkboxgroup@1.0.171-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-clipper@1.0.147-beta.0':
+    dependencies:
+      '@tencent/spa-clipper': 1.3.8
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-coder@1.0.147-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-collapse@1.0.151-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-datepicker@1.0.226-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-formgroup': 1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-timepicker': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-decorate@0.1.17': {}
+
+  '@tencent/spaui-devtool@0.1.10': {}
+
+  '@tencent/spaui-dialog@1.0.181-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      '@tencent/spaui-viewer': 1.0.152-beta.0
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-drawer@1.0.185-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+      rc-motion: 2.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-dropdown@1.0.172-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-buttongroup': 1.0.169-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-dropmenu': 1.0.154-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-dropmenu@1.0.154-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-echarts@1.0.158-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-ellipsis@0.1.5':
+    dependencies:
+      '@tencent/spaui-popover': 0.1.110
+      '@tencent/spaui-utils': 0.2.130
+
+  '@tencent/spaui-empty@1.0.147-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-formgroup@1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-icon@0.1.59':
+    dependencies:
+      '@tencent/spaui-theme': 0.0.4
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-icon@1.0.150-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-input@1.0.154-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-keyday@1.0.151-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-labels@1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-list@1.0.162-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-loading@1.0.148-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-menu@1.0.171-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-message@1.0.179-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-alert': 1.0.161-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-pagebar@1.0.203-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-formgroup': 1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-popover@0.1.110':
+    dependencies:
+      '@tencent/spaui-icon': 0.1.59
+      '@tencent/spaui-portal': 0.1.42
+      '@tencent/spaui-theme': 0.0.4
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-popover@1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-portal@0.1.42':
+    dependencies:
+      '@tencent/spaui-theme': 0.0.4
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-portal@1.0.147-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-radio@1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-radiogroup@1.0.167-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-radio': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-rating@1.0.148-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-select-tree@1.0.166-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-tree': 1.0.184-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-select@1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-labels': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-slider@1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-space@1.0.149-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-switch@1.0.151-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-table@1.0.223-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-ellipsis': 0.1.5
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-radio': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-tabs@1.0.209-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-dialog': 1.0.181-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+      natives: 1.1.6
+      types: 0.1.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-task@1.0.150-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-theme@0.0.4': {}
+
+  '@tencent/spaui-theme@1.0.144-beta.0': {}
+
+  '@tencent/spaui-timepicker@1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-formgroup': 1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-timeroutineselector@1.0.147-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-tooltip@1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-topnav@1.0.149-beta.0':
+    dependencies:
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-tree@1.0.184-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-devtool': 0.1.10
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-radio': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-uploader@1.0.180-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-userpicker@1.0.212-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-coder': 1.0.147-beta.0
+      '@tencent/spaui-formgroup': 1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
+  '@tencent/spaui-utils@0.2.130':
+    dependencies:
+      '@tencent/spaui-decorate': 0.1.17
+      '@tencent/spaui-devtool': 0.1.10
+      classnames: 2.5.1
+      prop-types: 15.8.1
+
+  '@tencent/spaui-viewer@1.0.152-beta.0':
+    dependencies:
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui-watermark@1.0.156-beta.0':
+    dependencies:
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-utils': 0.2.130
+      classnames: 2.5.1
+
+  '@tencent/spaui@3.0.328-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@tencent/od-animate': 2.0.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-alert': 1.0.161-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-autocomplete': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-badge': 1.0.149-beta.0
+      '@tencent/spaui-blockselector': 1.0.150-beta.0
+      '@tencent/spaui-breadcrumb': 1.0.151-beta.0
+      '@tencent/spaui-button': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-buttongroup': 1.0.169-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-carousel': 1.0.161-beta.0
+      '@tencent/spaui-chart': 1.0.151-beta.0
+      '@tencent/spaui-checkbox': 1.0.170-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-checkboxgroup': 1.0.171-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-clipper': 1.0.147-beta.0
+      '@tencent/spaui-coder': 1.0.147-beta.0
+      '@tencent/spaui-collapse': 1.0.151-beta.0
+      '@tencent/spaui-datepicker': 1.0.226-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-dialog': 1.0.181-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-drawer': 1.0.185-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-dropdown': 1.0.172-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-dropmenu': 1.0.154-beta.0
+      '@tencent/spaui-echarts': 1.0.158-beta.0
+      '@tencent/spaui-empty': 1.0.147-beta.0
+      '@tencent/spaui-formgroup': 1.0.200-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-icon': 1.0.150-beta.0
+      '@tencent/spaui-input': 1.0.154-beta.0
+      '@tencent/spaui-keyday': 1.0.151-beta.0
+      '@tencent/spaui-labels': 1.0.168-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-list': 1.0.162-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-loading': 1.0.148-beta.0
+      '@tencent/spaui-menu': 1.0.171-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-message': 1.0.179-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-pagebar': 1.0.203-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-popover': 1.0.164-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-portal': 1.0.147-beta.0
+      '@tencent/spaui-radio': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-radiogroup': 1.0.167-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-rating': 1.0.148-beta.0
+      '@tencent/spaui-select': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-select-tree': 1.0.166-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-slider': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-space': 1.0.149-beta.0
+      '@tencent/spaui-switch': 1.0.151-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-table': 1.0.223-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-tabs': 1.0.209-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-task': 1.0.150-beta.0
+      '@tencent/spaui-theme': 1.0.144-beta.0
+      '@tencent/spaui-timepicker': 1.0.202-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-timeroutineselector': 1.0.147-beta.0
+      '@tencent/spaui-tooltip': 1.0.165-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-topnav': 1.0.149-beta.0
+      '@tencent/spaui-tree': 1.0.184-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-uploader': 1.0.180-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-userpicker': 1.0.212-beta.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tencent/spaui-viewer': 1.0.152-beta.0
+      '@tencent/spaui-watermark': 1.0.156-beta.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
   '@testing-library/dom@9.3.4':
     dependencies:
       '@babel/code-frame': 7.26.2
@@ -4505,10 +5413,10 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-react-swc@3.8.0(vite@5.4.14(@types/node@20.17.19)(terser@5.39.0))':
+  '@vitejs/plugin-react-swc@3.8.0(vite@5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0))':
     dependencies:
       '@swc/core': 1.10.18
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.39.0)
+      vite: 5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -4543,7 +5451,7 @@ snapshots:
       pathe: 1.1.2
       picocolors: 1.1.1
       sirv: 2.0.4
-      vitest: 1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(terser@5.39.0)
+      vitest: 1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(less@4.2.2)(terser@5.39.0)
 
   '@vitest/utils@1.6.1':
     dependencies:
@@ -4984,6 +5892,10 @@ snapshots:
 
   contour_plot@0.0.1: {}
 
+  copy-anything@2.0.6:
+    dependencies:
+      is-what: 3.14.1
+
   copy-to-clipboard@3.3.3:
     dependencies:
       toggle-selection: 1.0.6
@@ -5245,6 +6157,11 @@ snapshots:
       tapable: 2.2.1
 
   entities@4.5.0: {}
+
+  errno@0.1.8:
+    dependencies:
+      prr: 1.0.1
+    optional: true
 
   es-abstract@1.23.9:
     dependencies:
@@ -5753,6 +6670,9 @@ snapshots:
 
   ignore@5.3.2: {}
 
+  image-size@0.5.5:
+    optional: true
+
   import-fresh@3.3.1:
     dependencies:
       parent-module: 1.0.1
@@ -5908,6 +6828,8 @@ snapshots:
       call-bound: 1.0.3
       get-intrinsic: 1.3.0
 
+  is-what@3.14.1: {}
+
   isarray@2.0.5: {}
 
   isexe@2.0.0: {}
@@ -5980,6 +6902,20 @@ snapshots:
 
   lazy-cache@1.0.4: {}
 
+  less@4.2.2:
+    dependencies:
+      copy-anything: 2.0.6
+      parse-node-version: 1.0.1
+      tslib: 2.8.1
+    optionalDependencies:
+      errno: 0.1.8
+      graceful-fs: 4.2.11
+      image-size: 0.5.5
+      make-dir: 2.1.0
+      mime: 1.6.0
+      needle: 3.3.1
+      source-map: 0.6.1
+
   levn@0.4.1:
     dependencies:
       prelude-ls: 1.2.1
@@ -6030,6 +6966,12 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
+  make-dir@2.1.0:
+    dependencies:
+      pify: 4.0.1
+      semver: 5.7.2
+    optional: true
+
   math-intrinsics@1.1.0: {}
 
   merge-stream@2.0.0: {}
@@ -6046,6 +6988,9 @@ snapshots:
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
+
+  mime@1.6.0:
+    optional: true
 
   mimic-fn@4.0.0: {}
 
@@ -6120,7 +7065,15 @@ snapshots:
 
   nanoid@3.3.8: {}
 
+  natives@1.1.6: {}
+
   natural-compare@1.4.0: {}
+
+  needle@3.3.1:
+    dependencies:
+      iconv-lite: 0.6.3
+      sax: 1.4.1
+    optional: true
 
   neo-async@2.6.2: {}
 
@@ -6219,6 +7172,8 @@ snapshots:
     dependencies:
       callsites: 3.1.0
 
+  parse-node-version@1.0.1: {}
+
   path-exists@4.0.0: {}
 
   path-is-absolute@1.0.1: {}
@@ -6251,6 +7206,9 @@ snapshots:
   picomatch@2.3.1: {}
 
   pify@2.3.0: {}
+
+  pify@4.0.1:
+    optional: true
 
   pirates@4.0.6: {}
 
@@ -6330,6 +7288,9 @@ snapshots:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+
+  prr@1.0.1:
+    optional: true
 
   punycode@2.3.1: {}
 
@@ -6461,6 +7422,14 @@ snapshots:
       classnames: 2.5.1
       rc-motion: 2.9.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rc-overflow: 1.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      rc-util: 5.44.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+
+  rc-motion@2.4.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@babel/runtime': 7.26.9
+      classnames: 2.5.1
       rc-util: 5.44.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6835,6 +7804,9 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
+  sax@1.4.1:
+    optional: true
+
   scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
@@ -6849,6 +7821,9 @@ snapshots:
   scroll-into-view-if-needed@3.1.0:
     dependencies:
       compute-scroll-into-view: 3.1.1
+
+  semver@5.7.2:
+    optional: true
 
   semver@6.3.1: {}
 
@@ -7275,6 +8250,8 @@ snapshots:
       possible-typed-array-names: 1.1.0
       reflect.getprototypeof: 1.0.10
 
+  types@0.1.1: {}
+
   typescript@5.7.3: {}
 
   ufo@1.5.4: {}
@@ -7312,13 +8289,13 @@ snapshots:
 
   validator@13.7.0: {}
 
-  vite-node@1.6.1(@types/node@20.17.19)(terser@5.39.0):
+  vite-node@1.6.1(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.39.0)
+      vite: 5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7330,18 +8307,18 @@ snapshots:
       - supports-color
       - terser
 
-  vite-tsconfig-paths@4.3.2(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)(terser@5.39.0)):
+  vite-tsconfig-paths@4.3.2(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.7.3)
     optionalDependencies:
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.39.0)
+      vite: 5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.14(@types/node@20.17.19)(terser@5.39.0):
+  vite@5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.3
@@ -7349,9 +8326,10 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.17.19
       fsevents: 2.3.3
+      less: 4.2.2
       terser: 5.39.0
 
-  vitest@1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(terser@5.39.0):
+  vitest@1.6.1(@types/node@20.17.19)(@vitest/ui@1.6.1)(happy-dom@15.11.7)(less@4.2.2)(terser@5.39.0):
     dependencies:
       '@vitest/expect': 1.6.1
       '@vitest/runner': 1.6.1
@@ -7370,8 +8348,8 @@ snapshots:
       strip-literal: 2.1.1
       tinybench: 2.9.0
       tinypool: 0.8.4
-      vite: 5.4.14(@types/node@20.17.19)(terser@5.39.0)
-      vite-node: 1.6.1(@types/node@20.17.19)(terser@5.39.0)
+      vite: 5.4.14(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
+      vite-node: 1.6.1(@types/node@20.17.19)(less@4.2.2)(terser@5.39.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 20.17.19

@@ -1,0 +1,29 @@
+@margin-sm: 12px;
+@margin-xs: 8px;
+@padding-xss: 4px;
+
+.mainContainer {
+  padding: 0 6px @padding-xss 0;
+  background-color: #eee;
+}
+
+.secondarySection {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2px;
+}
+
+.nestedWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 6px;
+  margin-right: @margin-xs;
+}
+
+.contentArea {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: @margin-sm;
+}
